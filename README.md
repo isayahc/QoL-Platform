@@ -1,4 +1,4 @@
-# Project Name
+# Quality of Life Platform
 
 [![Build Status](https://img.shields.io/travis/username/reponame.svg?style=flat-square)](https://travis-ci.org/username/reponame)
 [![Coverage Status](https://img.shields.io/coveralls/username/reponame.svg?style=flat-square)](https://coveralls.io/github/username/reponame)
@@ -6,13 +6,13 @@
 
 ## Description
 
-Brief description of your project.
+A platform for generating, collecting and managing information for the purposing of generating content.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Collecting information from sources
+- Storing information in a vector store
+- Quantifying probability audience interaction
 
 ## Installation
 
