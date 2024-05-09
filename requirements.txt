@@ -1,1 +1,6 @@
-
+langchain-community
+langchain
+sentence-transformers
+chromadb
+python-dotenv
+beautifulsoup4
