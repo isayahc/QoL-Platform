@@ -1,10 +1,10 @@
 **Title: Cultivating Wellness: Building a Community to Enhance Quality of Life**
 
 **Abstract:**
-In today's fast-paced world, prioritizing wellness has become increasingly important. This white paper outlines a comprehensive approach to improving quality of life through nutrition, hydration, exercise, sleep, and mindfulness. By establishing a vibrant community centered around these pillars of wellness, individuals can achieve holistic well-being and support each other on their journey to a healthier lifestyle.
+In today's fast-paced world, prioritizing wellness has become increasingly important. This white paper outlines a comprehensive approach to improving quality of life through nutrition, hydration, exercise, sleep, and mindfulness. By establishing a vibrant community centered around these pillars of wellness, individuals can achieve holistic well-being and support each other on their journey to a healthier lifestyle. 
 
 **Introduction:**
-Wellness encompasses more than just physical health; it encompasses mental, emotional, and social well-being as well. In this white paper, we propose the creation of a community dedicated to enhancing quality of life through a balanced approach to wellness. By focusing on nutrition, hydration, exercise, sleep, and mindfulness, individuals can achieve optimal health and vitality.
+Wellness encompasses more than just physical health; it encompasses mental, emotional, and social well-being as well. In this white paper, we propose the creation of a community dedicated to enhancing quality of life through a balanced approach to wellness. By focusing on nutrition, hydration, exercise, sleep, and mindfulness, individuals can achieve optimal health and vitality. This has the potential to slow aging, enhance cognitive abilities, reduce the risk of diseases, and possibly increase life expectancy.
 
 **Nutrition:**
 A healthy diet is fundamental to overall well-being. By emphasizing whole foods, fruits, vegetables, lean proteins, and healthy fats, individuals can nourish their bodies and support their immune systems. Community members can share recipes, meal plans, and nutritional tips to help each other make informed dietary choices.
@@ -23,6 +23,15 @@ Practicing mindfulness can help individuals reduce stress, enhance self-awarenes
 
 **Conclusion:**
 By fostering a supportive community focused on nutrition, hydration, exercise, sleep, and mindfulness, individuals can enhance their quality of life and achieve holistic wellness. Through shared knowledge, encouragement, and accountability, community members can empower each other to make positive lifestyle changes and thrive in all aspects of life. Let us come together to cultivate wellness and create a healthier, happier world for ourselves and future generations.
+
+Development 
+------------
+
+Phase-1:
+The goal is to develop content (such as blogs, graphics, podcasts, and short videos) on holistic health, sourced from credible, science-backed information using multimodal AI.
+
+Phase-2:
+Design a physical device to measure holistic health such as nutrition, walking, hydration, sleep, exercise, and mindfulness activities. Additionally, create a social reward platform to incentivize people to maintain these healthy habits.
 
 **References:**
 - American Heart Association. (n.d.). Healthy Eating. Retrieved from https://www.heart.org/en/healthy-living/healthy-eating
