@@ -109,3 +109,14 @@ for i in web_chunks:
             embeddings=hf.embed_documents([i.page_content for i in web_chunks]),
             metadatas=[i.metadata for i in web_chunks],  # type: ignore
         )
+
+        x = 0
+
+
+results = collection.query(
+    query_texts=["This is a query document"],
+    n_results=2,
+    # where={"metadata_field": "is_equal_to_this"}, # optional filter
+    # where_document={"$contains":"search_string"}  # optional filter
+)
+x = 0
