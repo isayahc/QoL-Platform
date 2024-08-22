@@ -14,7 +14,8 @@ import dotenv
 import os
 
 dotenv.load_dotenv()
-persist_directory = os.getenv('VECTOR_DATABASE_LOCATION')
+PERSIST_DIRECTORY = os.getenv('VECTOR_DATABASE_LOCATION')
+COLLECTION_NAME="SampleCollection"
 
 def generate_uuid() -> str:
     """
@@ -64,20 +65,21 @@ def chunk_web_data(
     
     return data
 
-if __name__ == '__main__':
-    collection_name="SampleCollection"
-    
 
+
+if __name__ == '__main__':
+    
     
     client = chromadb.PersistentClient(
     #  path=persist_directory, # this value is optional
     )
     
     collection = client.get_or_create_collection(
-    name=collection_name,
+    name=COLLECTION_NAME,
     )
     
-    example_site = "https://www.hsph.harvard.edu/"
+    # example_site = "https://www.hsph.harvard.edu/"
+    example_site = "https://www.hsph.harvard.edu/news/hsph-in-the-news/using-cleaning-products-may-raise-womens-risk-of-asthma-respiratory-conditions/"
     
     web_chunks = chunk_web_data(
         [example_site]
@@ -89,7 +91,7 @@ if __name__ == '__main__':
         model_name=os.getenv("EMBEDDING_MODEL"),
         )
     
-    model_name = "sentence-transformers/all-mpnet-base-v2"
+    model_name=os.getenv("EMBEDDING_MODEL")
     model_kwargs = {'device': 'cpu'}
     encode_kwargs = {'normalize_embeddings': False}
     hf = HuggingFaceEmbeddings(
@@ -110,13 +112,3 @@ for i in web_chunks:
             metadatas=[i.metadata for i in web_chunks],  # type: ignore
         )
 
-        x = 0
-
-
-results = collection.query(
-    query_texts=["This is a query document"],
-    n_results=2,
-    # where={"metadata_field": "is_equal_to_this"}, # optional filter
-    # where_document={"$contains":"search_string"}  # optional filter
-)
-x = 0
